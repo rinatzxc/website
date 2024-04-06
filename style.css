@@ -1,0 +1,114 @@
+@import 'mobile.css';
+
+@media screen and (min-width: 535px) {
+    header {
+        display: flex;
+            justify-content: space-between;
+                align-items: center;
+                }
+
+
+                header ul { 
+                    display: flex;
+                    }
+
+
+                    header a {
+                        border-top: none;
+                        }
+
+
+                        .sidebar {
+                            margin-top: 0;
+                            }
+}
+@media screen and (min-width: 730px) {.cards {
+        display: flex;
+            flex-wrap: wrap;
+                gap: 1rem;
+                    justify-content: flex-start;
+                        margin-bottom: 1rem;
+                        }
+
+
+                        .cards li {
+                            width: calc(50% - 0.5rem);
+                                margin-bottom: 0;
+                                }
+
+}
+@media screen and (min-width:1010px) {
+    .cards li {
+            width: calc(33% - 0.5rem);
+            }
+    }
+@media screen and (min-width: 1295px) {
+    main {
+            display: grid;
+                grid-template-columns: 2fr 1fr;
+                    padding: 1rem;
+                    }
+
+
+                    .cards li {
+                        width: calc(32% - 0.5rem);
+                        }
+
+
+                        article p {
+                            padding-right: 1rem;
+                            }
+    }
+
+@media (hover: hover) and (pointer: fine) {
+    .cards li:hover {
+           color: #6441A5;
+           }
+    }
+
+
+
+.cool-space-rocket>img {
+    
+    width: 320w;
+    background-image: url("images/rocket320.jpg");
+    
+}
+
+
+
+.cool-space-rocket>img  {
+        width: 640w;
+       background-image: url("images/rocket640.jpg"); 
+}
+
+.cool-space-rocket>img  {
+        width: 1024w;
+       background-image: url("images/rocket1024.jpg"); 
+}
+
+
+.cool-space-rocket>img  {
+        width: 1280w;
+       background-image: url("images/rocket1280.jpg"); 
+}
+
+
+
+.cool-space-rocket>img  {
+        max-width: 530px;
+       width: 80vw; 
+}
+
+.cool-space-rocket>img  {
+        max-width: 730px;
+       width: 70vw; 
+}
+
+
+
+.cool-space-rocket>img  {
+        max-width: 1500px;
+       width: 50vw; 
+}
+
